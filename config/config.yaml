@@ -96,6 +96,8 @@ weight:
   hotness_weight: 0.1 # 热度权重
 
 # name 可以定义任意名称，只具有显示作用，即使项目运行了几天后，忽然改掉 name 也不会影响代码的正常运行
-platforms：
+platforms:
+  - id: "cls-hot"
+    name: "财联社热门"
   - id: "xueqiu"
     name: "雪球"
